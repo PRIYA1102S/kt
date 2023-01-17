@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar {
+    width: 100%;
+    margin: -20px 0 10px 0;
+}
+div{
+    display: block;
+}
+.navbar>div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: #05242a;
+}
+.navbar>div>.logo {
+    width: 150px;
+}
+.navbar-nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin: 0 25px;
+}
+ul {
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+.nav-item a{
+    color: #fff!important;
+    font-weight: bold;
+}
+.nav-item{
+    color: #fff;
+    font-size: 1.1rem;
+    text-decoration: none;
+
+}
+.header::before
+{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    opacity: .4;
+    z-index: -1;
+    background: linear-gradient(to right, #3A8891 0%, #3A8891 0%, #3A8891 100%);
+}
+.header-section>h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+h1 {
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.header{
+    background-image: url(/staff-meeting-group-young-modern-people-smart-casual-wear-discussing-something-while-working-creative-office-business-time.jpg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    padding: 30px 70px;
+    clip-path: polygon(0 0,100% 0,100% 50%,50% 100%,0 50%);
+    position: relative;
+}
+.active{
+    padding: 20px 50px;
+    background-image: url(/download.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header-section>p {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin: 0 auto 10px;
+}
+div{
+    display: block;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.left-div{
+        padding-left: 5em;
+}
